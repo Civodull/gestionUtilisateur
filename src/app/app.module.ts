@@ -9,7 +9,6 @@ import { InscriptionComponent } from './inscription/inscription.component';
 import { FinanceComponent } from './finance/finance.component';
 import { EtudiantComponent } from './etudiant/etudiant.component';
 import { FormateurComponent } from './formateur/formateur.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 import {FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
@@ -22,7 +21,6 @@ import { HttpClientModule } from '@angular/common/http';
     FinanceComponent,
     EtudiantComponent,
     FormateurComponent,
-    DashboardComponent
   ],
   imports: [
     BrowserModule,

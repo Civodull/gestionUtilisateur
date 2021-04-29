@@ -3,7 +3,6 @@ import { RouterModule, Routes } from '@angular/router';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { AppComponent } from '../app/app.component';
 import { InscriptionComponent } from './inscription/inscription.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
 //import { AuthguardGuard } from './authguard.guard';
 
 
