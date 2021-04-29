@@ -1,1 +1,26 @@
-<p>connexion works!</p>
+<div class="row">
+    <div class="col-md-4">
+    </div>
+    <div class="col-md-4 col-md-offset-5">
+        <div id="jumbotron">
+            <div class="jumb">
+                <form [formGroup]="angForm" (ngSubmit)="postdata(angForm)" autocomplete="off">
+                    <h5 class="text-center">CONNEXION</h5>
+                    <h6 class="text">connectez-vous à votre compte</h6>
+                    <div class="form-group">
+                        <!-- <label for="email">Email</label>-->
+                        <input type="email" name="email" formControlName="email" autocomplete="off" class="form-control input-sm" placeholder="Saisir l'email ou pseudo ici">
+                    </div>
+                    <div class="form-group">
+                        <!--  <label for="Password">Mot de passe</label>-->
+                        <input type="password" name="Password" formControlName="password" autocomplete="off" class="form-control input-sm" placeholder="Saisir le mot de passe ici">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Valider</button>
+                </form>
+                <h6 class="text-left">J'ai oublié mon mot de passe. Cliquez ici pour le réinitialiser.</h6>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+    </div>
+</div>
