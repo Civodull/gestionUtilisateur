@@ -2,22 +2,30 @@
     <div class="col-md-4">
     </div>
     <div class="col-md-4 col-md-offset-5">
-        <div id="jumbotron">
+        <div class="jumbotron">
+
             <div class="jumb">
-                <form [formGroup]="angForm" (ngSubmit)="postdata(angForm)" autocomplete="off">
+                <a class=""> <img src="../../assets/img/user.png"></a>
+                <form [formGroup]="angForm" (ngSubmit)="postdata(angForm)" autocomplete="off" id="formI">
                     <h5 class="text-center">CONNEXION</h5>
                     <h6 class="text">connectez-vous à votre compte</h6>
                     <div class="form-group">
+                        <!-- <label for="email">compte google</label>-->
+                        <div class="g-signin2" data-onsuccess="onSignIn" data-longtitle="true"></div>
+                    </div>
+                    <div class="form-group">
                         <!-- <label for="email">Email</label>-->
-                        <input type="email" name="email" formControlName="email" autocomplete="off" class="form-control input-sm" placeholder="Saisir l'email ou pseudo ici">
+                        <input type="email" name="email" formControlName="email" autocomplete="off" class="form-contro input-sm" placeholder="Saisir l'email ou pseudo ici">
                     </div>
                     <div class="form-group">
                         <!--  <label for="Password">Mot de passe</label>-->
-                        <input type="password" name="Password" formControlName="password" autocomplete="off" class="form-control input-sm" placeholder="Saisir le mot de passe ici">
+                        <input type="password" name="Password" formControlName="password" autocomplete="off" class="form-contro input-sm" placeholder="Saisir le mot de passe ici">
                     </div>
                     <button type="submit" class="btn btn-primary">Valider</button>
                 </form>
-                <h6 class="text-left">J'ai oublié mon mot de passe. Cliquez ici pour le réinitialiser.</h6>
+                <a href="#">
+                    <h6 class="text-left"> Cliquez ici pour le réinitialiser le mot de passe.</h6>
+                </a>
             </div>
         </div>
     </div>
