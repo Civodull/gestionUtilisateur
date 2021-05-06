@@ -9,6 +9,8 @@ import { InscriptionComponent } from './inscription/inscription.component';
 import { FinanceComponent } from './finance/finance.component';
 import { EtudiantComponent } from './etudiant/etudiant.component';
 import { FormateurComponent } from './formateur/formateur.component';
+import {FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,15 @@ import { FormateurComponent } from './formateur/formateur.component';
     InscriptionComponent,
     FinanceComponent,
     EtudiantComponent,
-    FormateurComponent
+    FormateurComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
