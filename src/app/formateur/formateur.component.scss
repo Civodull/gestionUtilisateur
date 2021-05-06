@@ -1,0 +1,123 @@
+    .carte-formateur {
+        position: absolute;
+        width: 1183px;
+        height: 833px;
+        left: 109px;
+        top: 129px;
+        background: #FFFFFF;
+        box-shadow: 6px 0px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    .card-header {
+        position: absolute;
+        width: 1162.13px;
+        height: 68.36px;
+        left: 151px;
+        top: 239px;
+        background: #667EEA;
+        font-family: Roboto;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: inline;
+        /* identical to box height */
+        color: #FFFFFF;
+    }
+
+    img {
+        position: absolute;
+        width: 115px;
+        height: 99px;
+        left: 131px;
+        top: 320px;
+    }
+
+    #tiret-horizontal {
+        position: absolute;
+        width: 258px;
+        height: 0px;
+        left: 300px;
+        top: 600px;
+        border: 12px solid #C4C4C4;
+        transform: rotate(90deg);
+    }
+
+    .info-prof {
+        position: absolute;
+        width: 240px;
+        height: 27px;
+        left: 460px;
+        top: 499px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    table tr td {
+        padding: 2; //Marge à l'intérieur des cellules, équivalent de cellpadding
+    }
+
+    .container {
+        position: relative;
+        width: 1440px;
+        height: 1024px;
+        background: #FFFFFF;
+    }
+
+    .btn {
+        position: absolute;
+        width: 209.66px;
+        height: 68.63px;
+        left: 1171.34px;
+        top: 11px;
+        background: #667EEA;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .name {
+        position: absolute;
+        width: 133.78px;
+        height: 28.71px;
+        left: 126px;
+        top: 420px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+    }
+
+    .job {
+        position: absolute;
+        width: 234px;
+        height: 36px;
+        left: 109px;
+        top: 455px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 28px;
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .fond-bleu {
+        position: absolute;
+        width: 1198.07px;
+        height: 808.05px;
+        left: 141px;
+        top: 224.95px;
+        background: #667EEA;
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+    }
