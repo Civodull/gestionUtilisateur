@@ -5,13 +5,13 @@
         <div class="jumbotron">
 
             <div class="jumb">
-                <a class=""> <img src="../../assets/img/user.png"></a>
+                <a routerLink=""><img src="../../assets/img/user.png"></a>
                 <form [formGroup]="angForm" (ngSubmit)="postdata(angForm)" autocomplete="off" id="formI">
                     <h5 class="text-center">CONNEXION</h5>
                     <h6 class="text">connectez-vous à votre compte</h6>
                     <div class="form-group">
                         <!-- <label for="email">compte google</label>-->
-                        <div class="g-signin2" data-onsuccess="onSignIn" data-longtitle="true"></div>
+                        <div id="google" class="g-signin2" data-onsuccess="onSignIn" data-longtitle="true"></div>
                     </div>
                     <div class="form-group">
                         <!-- <label for="email">Email</label>-->

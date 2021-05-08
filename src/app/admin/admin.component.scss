@@ -1,0 +1,43 @@
+html { background-color: black; }
+
+html body {
+    background-color: rgba(0,0,0,1.00);
+}
+
+.form-control{
+    position: absolute;
+    width: 402px;
+    height: 31px;
+    left: 155px;
+    top: 100px;
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+table{
+    position: absolute;
+    width: 865px;
+    height: 56px;
+    left: 155px;
+    top: 150px;
+    background: #E0E2E2;
+    margin: 0px;
+}
+table th{
+
+width: 45px;
+height: 21px;
+left: 664px;
+top: 182px;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.13em;
+color: #000000;
+background-color: #2dbdbd;
+}
+img{
+    position: relative;
+    max-width: 100%;
+    max-inline-size: 27px;
+}

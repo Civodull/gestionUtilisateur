@@ -6,7 +6,7 @@
 }
 
 .jumbotron {
-    position: absolute;
+    position: relative;
     width: 437px;
     height: 524px;
     left: 200px;
@@ -17,11 +17,12 @@
 }
 
 .jumb {
-    position: absolute;
+    position: relative;
     width: 409px;
     height: 492px;
     left: 15px;
-    bottom: 15px;
+    bottom: auto;
+    top: 15px;
     padding: 160px 10px 160px 10px;
     background: #FFFFFF;
     box-shadow: 6px 0px 12px rgba(0, 0, 0, 0.12);
@@ -35,14 +36,15 @@
 
 img {
     position: absolute;
-    right: 130px;
-    width: 150px;
-    height: 150px;
+    right: 120px;
+    width: 200px;
+    height: 200px;
     bottom: 63%;
 }
 
-.g-signin2 {
-    width: 409px
+#google {
+width: 25px;
+size: 100%;
 }
 
 .btn {
@@ -54,19 +56,21 @@ img {
 
 .text-center {
     color: #667EEA;
+    font-size: 18px;
 }
 
 .text-left {
     text-align: center;
     color: #667EEA;
+    font-size: 14px;
 }
 
 .text {
     text-align: center;
     color: #88888b;
+    font-size: 14px;
 }
-
-//---------------------------------------------------
+//---------------------------DEFAULT------------------------
 // Font Family
 $body-font: "Roboto";
 // Font Weights

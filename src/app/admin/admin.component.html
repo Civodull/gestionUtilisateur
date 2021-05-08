@@ -1,1 +1,33 @@
-<p>admin works!</p>
+  <div class="form-group col-md-4" style="margin-top: 10px; float: right;">
+    <input type="text" class="form-control"  placeholder="Chercher un utilisateur..." [(ngModel)]="searchedKeyword">
+  </div>
+  <div class="container-fluid">
+  <table class="table table-striped table-responsive-md btn-table">
+    <thead >
+        <tr class="thead">
+            <th>Pseudo</th>
+            <th>Nom</th>
+            <th>Prenom</th>
+            <th>Email</th>
+            <th>Adresse</th>
+            <th>Telephone</th>
+            <th>Role</th>
+            <th class="colspan-2">Action</th>
+            <th><a routerLink="../inscription" (click)="onCreate()"><img src="../../assets/img/AddBut.png"></a></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of filterResultDataSet | filter:searchedKeyword">
+            <td>{{item.pseudo}}</td>
+            <td>{{item.nom}}</td>
+            <td>{{item.prenom}}</td>
+            <td>{{item.email}}</td>
+            <td>{{item.adresse}}</td>
+            <td>{{item.telephone}}</td>
+            <td>{{item.role}}</td>
+            <td  width=275><a class="btn btn-success">Modifier</a></td>
+            <td><a class="btn btn-danger">Supprimer</a></td>
+        </tr>
+    </tbody>
+  </table>
+</div>
