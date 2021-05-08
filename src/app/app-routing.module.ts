@@ -9,7 +9,7 @@ const routes: Routes = [
   { path: '', component: ConnexionComponent },
   { path: 'login', component: ConnexionComponent },
   { path: 'home', component: AppComponent },
-  { path: 'registration', component: InscriptionComponent },
+  { path: 'inscription', component: InscriptionComponent },
   //{ path: 'dashboard', component: DashboardComponent,canActivate: [AuthguardGuard] }
   ]
 @NgModule({
