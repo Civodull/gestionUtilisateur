@@ -8,19 +8,20 @@ html body {
     position: absolute;
     width: 402px;
     height: 31px;
-    left: 155px;
-    top: 100px;
+    left: 15px;
+    top: 20px;
     background: #FFFFFF;
     border-radius: 4px;
 }
 table{
-    position: absolute;
+    position: relative;
     width: 865px;
     height: 56px;
-    left: 155px;
-    top: 150px;
+    top: 50px;
+    left: -15px;
+    border-radius: 22px;
     background: #E0E2E2;
-    margin: 0px;
+    margin: 18px;
 }
 table th{
 
@@ -40,4 +41,37 @@ img{
     position: relative;
     max-width: 100%;
     max-inline-size: 27px;
+}
+.modal-body{
+    width: '250px';
+    max-inline-size: 100px;
+}
+.body{
+    position: relative;
+    width: 946px;
+    height: 516px;
+    
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.tronc{
+    position: relative;
+width: 960px;
+height: 550px;
+left: 179px;
+top: 90px;
+background: rgba(102, 126, 234, 0.5);
+border-radius: 15px;
+margin: 10px;
+}
+.buttonn{
+position: absolute;
+width: 131px;
+height: 38px;
+left: 787px;
+top: 500px;
+background: #667EEA;
+border-radius: 10px;
+color: #FFFFFF
 }

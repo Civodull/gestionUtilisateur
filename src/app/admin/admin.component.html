@@ -1,3 +1,5 @@
+<div class="body">
+  <div class="tronc">
   <div class="form-group col-md-4" style="margin-top: 10px; float: right;">
     <input type="text" class="form-control"  placeholder="Chercher un utilisateur..." [(ngModel)]="searchedKeyword">
   </div>
@@ -13,7 +15,8 @@
             <th>Telephone</th>
             <th>Role</th>
             <th class="colspan-2">Action</th>
-            <th><a routerLink="../inscription" (click)="onCreate()"><img src="../../assets/img/AddBut.png"></a></th>
+            <th><a (click)="open(content)"><img src="../../assets/img/AddBut.png"></a></th>
+           <!-- <a routerLink="../inscription"></a>-->
         </tr>
     </thead>
     <tbody>
@@ -25,9 +28,28 @@
             <td>{{item.adresse}}</td>
             <td>{{item.telephone}}</td>
             <td>{{item.role}}</td>
-            <td  width=275><a class="btn btn-success">Modifier</a></td>
-            <td><a class="btn btn-danger">Supprimer</a></td>
+            <td  width=275><a class="btn btn-success" (click)="onModifier()">Modifier</a></td>
+            <td><a class="btn btn-danger" (click)="onSupprimer()">Supprimer</a></td>
         </tr>
     </tbody>
   </table>
 </div>
+<div class="">
+  <button class="buttonn">Voir l'archive</button>
+</div>
+</div>
+</div>
+<!--Ajout fina list-->
+
+<ng-template #content let-modal>
+  <div class="modal-header">
+    <h4 class="modal-title" id="modal-basic-title">New Friend</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <div class="border text-center">
+    <button data-dismiss="modal" class="btn btn-info">Submit</button>
+    </div>
+</ng-template>   
