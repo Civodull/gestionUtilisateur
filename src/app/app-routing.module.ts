@@ -14,8 +14,10 @@ const routes: Routes = [
   { path: 'home', component: AppComponent },
   { path: 'inscription', component: InscriptionComponent },
 
-  { path: 'admin', component: AdminComponent }
-  //{ path: 'dashboard', component: DashboardComponent,canActivate: [AuthguardGuard] }
+  { path: 'admin', component: AdminComponent },
+  { path: 'formateur', component: FormateurComponent },
+  { path: 'finance', component: FinanceComponent },
+  { path: 'etudiant', component: EtudiantComponent },
   ]
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
