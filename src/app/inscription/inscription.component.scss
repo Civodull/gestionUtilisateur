@@ -1,0 +1,237 @@
+body {
+  background: #EDF2F7;
+}
+
+.div1 {
+  padding: 10px;
+  text-align: center;
+  margin: 0 auto;
+  width: 492.5px;
+  height: 548px;
+  left: 324px;
+  top: 86px;
+  background: #667EEA;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 15px
+}
+
+.div2 {
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  width: 458.65px;
+  height: 522.74px;
+  left: 342.54px;
+  top: 99.01px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+  border-radius: 15px
+}
+
+.div3 {
+  flex-direction: column-reverse;
+}
+
+.text-center {
+  margin: auto;
+  text-align: center;
+  width: 96.64px;
+  height: 18.56px;
+  right: 650px;
+  top: 200.08px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #667EEA;
+}
+
+h6 {
+  margin: auto;
+  width: 170.64px;
+  height: 18.56px;
+  right: 600px;
+  top: 226.59px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4A5568;
+}
+
+.Nom {
+  position: absolute;
+  width: 207.21px;
+  height: 44.19px;
+  left: 410px;
+  top: 175px;
+  background: #EDF2F7;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.Prénom {
+  position: absolute;
+  width: 207.21px;
+  height: 44.19px;
+  right: 410px;
+  top: 175px;
+  background: #EDF2F7;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.Pseudo {
+  position: absolute;
+  width: 207.21px;
+  height: 44.19px;
+  left: 410px;
+  top: 230px;
+  background: #EDF2F7;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.Adresse {
+  position: absolute;
+  width: 207.21px;
+  height: 44.19px;
+  right: 410px;
+  top: 230px;
+  background: #EDF2F7;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.Email {
+  position: absolute;
+  width: 445px;
+  height: 44.19px;
+  left: 410px;
+  top: 300px;
+  background: #EDF2F7;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5)
+}
+
+.Téléphone {
+  position: absolute;
+  width: 445px;
+  height: 44.19px;
+  left: 410px;
+  top: 360px;
+  background: #EDF2F7;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+h5 {
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  width: 138.43px;
+  height: 20.56px;
+  left: 550.04px;
+  top: 410px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4A5568;
+}
+
+.select-style {
+  padding: 0;
+  margin: 0;
+  left: 158px;
+  top: 190px;
+  border: 1px solid #ccc;
+  border-color: #667EEA;
+  border-style: solid;
+  width: 120px;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: #fff;
+  background: #fff;
+  position: relative;
+}
+
+.select-style select {
+  display: inline;
+  padding: 5px 8px;
+  width: 130%;
+  left: 600.04px;
+  top: 495.69px;
+  border: 1px 1px 1px 1px;
+  box-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-style:after {
+  text-align: center;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-width: 5px;
+  margin-top: -2px;
+  z-index: 100;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  top: .3em;
+  right: .75em;
+  border-top: 20px solid #667EEA;
+  background-color: 667EEA;
+}
+
+.select-style select:focus {
+  outline: none;
+  background-color: #667EEA;
+}
+
+.validation {
+  position: absolute;
+
+
+  width: 480px;
+  height: 44.19px;
+  left: 390px;
+  top: 480px;
+  color: rgba(255, 255, 255, 1);
+}
+
+option {
+  text-align: center;
+}
