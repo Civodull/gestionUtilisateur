@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AdminComponent } from './admin/admin.component';
-import { ConnexionComponent } from './connexion/connexion.component';
+import { ConnectionComponent as ConnectionComponent } from './connexion/connexion.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import { FinanceComponent } from './finance/finance.component';
 import { EtudiantComponent } from './etudiant/etudiant.component';
@@ -16,7 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
   declarations: [
     AppComponent,
     AdminComponent,
-    ConnexionComponent,
+    ConnectionComponent,
     InscriptionComponent,
     FinanceComponent,
     EtudiantComponent,
